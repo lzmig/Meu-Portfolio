@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --bg: #0e0c14;
+    --bg-nav: #13111a;
+    --bg-hover: rgba(192, 132, 252, 0.10);
+    --bg-active: rgba(192, 132, 252, 0.18);
+    --border-nav: rgba(255, 255, 255, 0.06);
+    --border-active: rgba(192, 132, 252, 0.30);
+    --accent: #c084fc;
+    --accent-dim: rgba(192, 132, 252, 0.55);
+    --text: #faf5ff;
+    --text-muted: rgba(250, 245, 255, 0.45);
+    --font-main: 'DM Sans', sans-serif;
+    --font-mono: 'DM Mono', monospace;
+    --nav-height: 64px;
+}
+.container {
+    min-width: 80%;
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 
+        0 0 40px rgba(44, 20, 43, 0.5),
+        0 0 80px rgba(66, 37, 75, 0.342);
+        font-family: --var(--font-main);
+}
+.container h1 {
+    margin-bottom: 20px;
+    color: var(--text);
+}

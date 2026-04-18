@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio — Luiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=DM+Mono:wght@400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/projeto.css" />
+    <link rel="stylesheet" href="css/allpg.css" />
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <span class="logo-mark">L</span>
+            luiz.dev
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre mim</a></li>
+                <li><a href="projetos.html" class="active">Projetos</a></li>
+                <li><a href="habilidades.html">Habilidades</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <a href="contato.html" class="nav-cta">Fale comigo</a>
+        <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html" class="active">Início</a>
+        <a href="sobre.html">Sobre mim</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="habilidades.html">Habilidades</a>
+        <a href="contato.html">Contato</a>
+    </div>
+
+    <div class="projects-grid">
+
+        <div class="project-card">
+            <div class="card-header">
+                <span class="card-tag">Projeto — Grupo</span>
+                <h3>Sabor do Bairro</h3>
+            </div>
+            <div class="card-body">
+                <p>Site institucional para restaurante fictício de comida caseira. Inclui cardápio, formulário de
+                    contato, página de novidades e design responsivo.</p>
+                <div class="card-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>GitHub Pages</span>
+                </div>
+                <div class="card-links">
+                    <a href="https://lzmig.github.io/Projeto-Empresa/" target="_blank" class="btn-primary">Ver
+                        projeto</a>
+                    <a href="https://github.com/lzmig/Projeto-Empresa" target="_blank" class="btn-secondary">Ver
+                        código</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card project-card--soon">
+            <div class="card-header card-header--soon">
+                <span class="card-badge-soon">Em breve</span>
+                <div>
+                    <span class="card-tag">Projeto</span>
+                    <h3>???</h3>
+                </div>
+            </div>
+            <div class="card-body">
+                <p>Algo novo está sendo construído. Em breve por aqui.</p>
+                <div class="card-tags">
+                    <span>???</span>
+                    <span>???</span>
+                </div>
+                <div class="card-links">
+                    <div class="btn-disabled">Ver projeto</div>
+                    <div class="btn-disabled">Ver código</div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="projects-footer">
+    <p class="projects-footer-text">Mais projetos em desenvolvimento. Acompanhe as novidades por lá.</p>
+    <a href="https://github.com/lzmig" target="_blank" class="projects-footer-link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.165c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.929.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.63-5.37-12-12-12z"/>
+        </svg>
+        github.com/lzmig
+    </a>
+    <p class="projects-footer-sub">Novos projetos chegando em breve — desde experimentos de curso até ferramentas pessoais.</p>
+</div>
+
+    
+
+    <script src="javascript/navbar.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+.foto-perfil {
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+    object-fit: cover;
+    border: 3px solid var(--border-active);
+}
